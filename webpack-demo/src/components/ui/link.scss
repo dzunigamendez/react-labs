@@ -1,0 +1,8 @@
+.link {
+    color: var(--blue);
+
+    &:focus,
+    &:hover {
+        color: var(--focus);
+    }
+}

@@ -1,0 +1,26 @@
+.panel {
+    border-radius: 0;
+    background: var(--white);
+    box-shadow: 1px 1px 4px var(--shadow);
+}
+
+.panel__header,
+.panel__footer {
+    padding: 16px 24px;
+}
+
+.panel__body,
+.panel__footer {
+    border-top: 1px solid var(--border);
+}
+
+.panel__body {
+    padding: 24px;
+}
+
+.panel__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

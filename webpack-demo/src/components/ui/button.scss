@@ -1,0 +1,17 @@
+.button {
+    padding: 12px 32px;
+    color: var(--white);
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 0;
+    background: var(--blue);
+
+    &:focus,
+    &:hover {
+        background: var(--focus);
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}

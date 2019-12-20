@@ -1,0 +1,14 @@
+.sign-in__title {
+    margin: 0;
+    text-align: center;
+}
+
+.sign-in__submit,
+.sign-in__sign-up {
+    margin: 12px;
+}
+
+.sign-in__error {
+    margin-bottom: 24px;
+    color: var(--error);
+}

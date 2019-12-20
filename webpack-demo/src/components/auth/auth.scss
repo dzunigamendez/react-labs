@@ -1,0 +1,26 @@
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background: center center / cover no-repeat;
+}
+
+.auth__container {
+    padding: 24px;
+    flex-grow: 1;
+    background: rgba(255, 255, 255, 0.5);
+
+    @media screen and (min-width: 800px) {
+        flex-grow: 0;
+        flex-basis: 600px;
+    }
+}
+
+.auth__logo {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
